@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ##################################################################### */
+/* ## -- HEADER -- ##################################################### */
+
+header {
+    padding: 20px 0 20px 0;
+    background: #FFD900;
+}
+
+header img {
+    margin-left: 3rem;
+}
+
+
+/* ##################################################################### */
+/* ## -- SECTION -- #################################################### */
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40rem auto;
+}
+
+#areaTxt {
+    background: #514988;
+    text-align: center;
+    padding: 10px 40px;
+    
+}
+
+#areaTxt h1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 50px;
+    color: #F3C61F;
+    margin-bottom: 2rem;
+}
+
+#areaTxt h3 {
+    font-family: 'Verdana';
+    font-size: 20px;
+    color: #FFF;
+    margin-bottom: 4rem;
+}
+
+#areaTxt p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#areaCountDown {
+    
+    padding: 10px 10px;
+}
+
+#countDown {
+    display: grid;
+    grid-auto-flow: column;
+    width: 80%;
+    margin-left: 2rem;
+}
+
+#countDown div h1{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 50px;
+    color: #514988;
+    margin-bottom: 0;
+    
+}
+
+#areaCountDown h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 20px;
+    color: #E33881;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+
+#areaCountDown video {
+    margin-left: 5px;
+}
+
+/* ##################################################################### */
+/* ## -- FOOTER -- ##################################################### */
+
+footer {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F3C61F;
+}
+
+footer div {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto auto 44rem;
+    align-items: center;
+}
+
+footer button {    
+    width: 400px;
+    height: 100px;
+    background: #514988;
+    border-radius: 20px;
+    border: 0;
+    
+    margin: auto;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+footer button:hover {
+    cursor: pointer;
+    background-color: #FFD900;
+    color: #514988;
+}
