@@ -54,15 +54,22 @@
     <footer>
         <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
         <div>
-            <img width="160" src="img/ingresso1.svg" alt="">
-            <img width="160" src="img/ingresso2.svg" alt="">
-            <img width="160" src="img/ingresso3.svg" alt="">
-            <img width="160" src="img/ingresso4.svg" alt="">
-            <button>GARANTA O SEU!</button>
+            <img width="160" src="img/ingresso1.svg" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')"  onmouseout="highlightCard('#quinta')"   id="quinta"  alt="">
+            <img width="160" src="img/ingresso2.svg" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')"   onmouseout="highlightCard('#sexta')"    id="sexta"   alt="">
+            <img width="160" src="img/ingresso3.svg" onclick="selectCard('#sabado')" onmouseover="highlightCard('#sabado')"  onmouseout="highlightCard('#sabado')"   id="sabado"  alt="">
+            <img width="160" src="img/ingresso4.svg" onclick="selectCard('#domingo')" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')"  id="domingo" alt="">
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
     </footer>
-
+    9186
+    <div>
+        <form action="">
+            <input type="email" placeholder="Seu e-mail" name="" id="" required>
+            <input type="submit">
+        </form>
+    </div>
 
     <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -133,3 +133,25 @@ footer button:hover {
     background-color: #FFD900;
     color: #514988;
 }
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px grey;
+    cursor: pointer;
+}
+
+.card-selected {
+    border:5px solid green;
+    cursor: pointer;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFF;
+    border: 0;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    padding-left: 10px;
+}
